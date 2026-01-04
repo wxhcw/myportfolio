@@ -26,10 +26,10 @@ const personalInfo = {
   // 社交媒体链接
   social: {
     github: "https://github.com/wxhcw",
-    linkedin: "#",
-    twitter: "#",
-    email: "mailto:alex@example.com",
-    dribbble: "#",
+    linkedin: "https://www.linkedin.com/in/tobias-w-15468a210",
+    twitter: "https://x.com",
+    email: "mailto:wangliuliu241@gmail.com",
+    dribbble: "https://dribbble.com",
   },
 
   // 图片配置（从独立文件加载）
@@ -41,6 +41,39 @@ const personalInfo = {
     return typeof aboutImageData !== 'undefined' ? aboutImageData : '';
   },
 
-  // 简历下载链接
-  resumeLink: "#",
+  // 简历下载链接（指向根目录的 PDF 文件）
+  resumeLink: "./resource/Tobias_WebDeveloper.pdf",
+  // 项目列表配置
+  projects: [
+    {
+      id: "job-seeker",
+      title: "Jobseeker Platform",
+      description:
+        "A responsive frontend for a job-search platform that lets users create profiles, browse and filter listings, and submit applications.",
+      tags: ["React", "TypeScript", "Tailwind CSS"],
+      viewLink: "https://job.klhiisa.org/",
+      github: "https://github.com/wxhcw/jobseeker_frontend",
+      image: "./resource/jobseeker.png",
+    },
+    {
+      id: "ecommerce",
+      title: "E-Commerce Platform",
+      description:
+        "A compact, modern e-commerce platform. It showcases a product listing with category filtering, reusable product cards, and a lightweight shopping cart.",
+      tags: ["React", "TypeScript", "PostgreSQL"],
+      viewLink: "https://ecommerce-frontend-inky-pi.vercel.app/",
+      github: "https://github.com/wxhcw/ecommerce_frontend",
+      image: "./resource/ecommerce.png",
+    },
+    {
+      id: "social-dashboard",
+      title: "Social Media Dashboard",
+      description:
+        "A comprehensive dashboard for managing and analyzing social media accounts and campaigns.",
+      tags: ["Vue.js", "Express", "PostgreSQL"],
+      viewLink: "#",
+      github: "#",
+      image: "",
+    },
+  ],
 };
