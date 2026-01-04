@@ -1,3 +1,6 @@
+import { injectSpeedInsights } from '@vercel/speed-insights';
+
+injectSpeedInsights();
 // 个人信息配置 - 在这里修改你的所有个人信息
 const personalInfo = {
   // 基本信息
