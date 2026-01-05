@@ -818,20 +818,7 @@
               class="bg-slate-800/70 p-8 rounded-xl border border-slate-700/50"
             >
               <h3 class="text-2xl font-semibold mb-6">Send Me a Message</h3>
-              <form id="contact-form" class="space-y-6">
-                <div>
-                  <label
-                    for="name"
-                    class="block text-sm font-medium text-gray-300 mb-1"
-                    >Name</label
-                  >
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    class="w-full bg-slate-700 border border-slate-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  />
-                </div>
+              <form id="contact-form" class="space-y-6" action="https://formspree.io/f/mbdlpnqr" method="POST">
                 <div>
                   <label
                     for="email"
@@ -969,13 +956,12 @@
         e.preventDefault();
 
         // Get form values
-        const name = document.getElementById("name").value;
         const email = document.getElementById("email").value;
         const subject = document.getElementById("subject").value;
         const message = document.getElementById("message").value;
 
         // Validate form (simple validation)
-        if (!name || !email || !subject || !message) {
+        if (!email || !subject || !message) {
           alert("Please fill in all fields");
           return;
         }
