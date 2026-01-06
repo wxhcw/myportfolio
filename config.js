@@ -11,7 +11,7 @@ const personalInfo = {
         I’m passionate about adapting to industry changes and building modern, effective user experiences.​​​​​​​​​​​​​​​​`,
 
   // 关于我
-  aboutDescription1: `Detail-oriented and collaborative front-end developer with strong proficiency in Vue.js, JavaScript, and Java. 
+  aboutDescription1: `Detail-oriented and collaborative front-end developer with strong proficiency in Vue.js, JavaScript, and Python. 
                     Experienced in building responsive, interactive web applications and integrating front-end components with back-end systems.`,
   aboutDescription2: `Eager to contribute to a dynamic development team to create highquality user experiences 
                     while leveraging a strong foundation in UI/UX design and version control.`,
