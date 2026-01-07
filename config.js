@@ -26,7 +26,7 @@ const personalInfo = {
   // 社交媒体链接
   social: {
     github: "https://github.com/wxhcw",
-    linkedin: "https://www.linkedin.com/in/tobias-w-15468a210",
+    linkedin: "#",
     twitter: "https://x.com",
     email: "mailto:wangliuliu241@gmail.com",
     dribbble: "https://dribbble.com",
