@@ -66,14 +66,14 @@ const personalInfo = {
       image: "./resource/ecommerce.png",
     },
     {
-      id: "social-dashboard",
-      title: "Social Media Dashboard",
+      id: "local-community-map",
+      title: "Local Community Map",
       description:
-        "A comprehensive dashboard for managing and analyzing social media accounts and campaigns.",
-      tags: ["Vue.js", "Express", "PostgreSQL"],
-      viewLink: "#",
-      github: "#",
-      image: "",
+        "Use Leaflet to display and manage local places on an interactive map. Users can add places, filter by category, import/export data, and sort by distance.",
+      tags: ["Leaflet", "OpenStreetMap", "Geolocation API"],
+      viewLink: "https://local-community-map.vercel.app/",
+      github: "https://github.com/wxhcw/local_community_map",
+      image: "./resource/localmap.png",
     },
   ],
 };
