@@ -18,7 +18,7 @@ const personalInfo = {
 
   // 联系信息
   email: "wangliuliu241@gmail.com",
-  phone: "+1 (249) 979-1482",
+  phone: "+1 (236) 967-6916",
   location: "Canada",
   locationFull: "Canada",
   availability: "Open to opportunities",
