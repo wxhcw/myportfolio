@@ -2,8 +2,8 @@
 const personalInfo = {
   // 基本信息
   name: "Tobias Wong",
-  title: "Web Developer",
-  subtitle: "Web Developer & UI/UX Enthusiast",
+  title: "FullStack Developer",
+  subtitle: "FullStack Developer",
 
   // 简介
   greeting: "Hello, I'm",
