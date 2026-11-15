@@ -7,14 +7,19 @@ const personalInfo = {
 
   // 简介
   greeting: "Hello, I'm",
-  bio: `I’m a frontend engineer dedicated to continuous learning and staying up-to-date with the latest web technologies. 
-        I’m passionate about adapting to industry changes and building modern, effective user experiences.​​​​​​​​​​​​​​​​`,
+  bio: `I'm a full stack developer who builds web applications end to end — modern, 
+  responsive front ends with React, Next.js, and Vue, backed by Python and Node.js APIs,
+   PostgreSQL, and Docker deployments on AWS. I like turning complex requirements into clean, 
+   usable products.​`,
 
   // 关于我
-  aboutDescription1: `Detail-oriented and collaborative front-end developer with strong proficiency in Vue.js, JavaScript, and Python. 
-                    Experienced in building responsive, interactive web applications and integrating front-end components with back-end systems.`,
-  aboutDescription2: `Eager to contribute to a dynamic development team to create highquality user experiences 
-                    while leveraging a strong foundation in UI/UX design and version control.`,
+  aboutDescription1: `Full stack developer with about three years of combined experience building web applications. At Zhejiang Dahua Technology,
+  I developed core modules of a multi-tenant enterprise platform with Vue 3 and TypeScript, integrating front-end features with back-end REST APIs. 
+  More recently, I designed and built a community job platform for KLHIISA — Next.js, React, and TypeScript on the front end, 
+  Django REST Framework and PostgreSQL on the back end — and deployed it to AWS with Docker and a GitHub Actions CI/CD pipeline`,
+  aboutDescription2: `I work comfortably across the whole stack: component architecture and state management on the front end; 
+  API design, authentication, and database modelling on the back end. I hold a Master's in Computational Science from Laurentian University, 
+  and I'm based in the Vancouver area and open to opportunities across Canada.`,
 
   // 联系信息
   email: "wangliuliu241@gmail.com",
